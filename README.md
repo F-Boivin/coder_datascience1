@@ -28,3 +28,10 @@ El dataset contiene información sobre variantes de vino tinto y blanco. Las mue
 | **Sulphates** | Input | Aditivo que actúa como antimicrobiano y antioxidante. |
 | **Alcohol** | Input | Porcentaje de contenido de alcohol. |
 | **Quality** | **Output** | Puntaje de calidad (entre 0 y 10). |
+
+### 📝 Notas sobre el Dataset
+El archivo original obtenido de UCI Machine Learning Repository utilizaba puntos y coma (`;`) como delimitador. 
+
+Para permitir la visualización interactiva en GitHub, el dataset incluido en este repositorio ha sido modificado:
+* **Separador de columnas:** Se cambió de `;` a `,`.
+* **Decimales:** Se mantuvieron como punto (`.`).
